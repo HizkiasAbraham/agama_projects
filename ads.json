@@ -20,5 +20,16 @@
         "githubUri": "https://github.com/HizkiasAbraham/agama_projects",
         "license": "MIT",
         "lastUpdated": "1681670848858"
+    },
+    "carnival": {
+        "projectName": "carnival",
+        "description": "carnivals setup ",
+        "type": "community",
+        "author": "HizkiasAbraham",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/HizkiasAbraham/agama_projects",
+        "githubUri": "https://github.com/HizkiasAbraham/agama_projects",
+        "license": "MIT",
+        "lastUpdated": "1681672092727"
     }
 }
