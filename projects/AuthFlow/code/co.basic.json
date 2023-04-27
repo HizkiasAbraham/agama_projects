@@ -3,6 +3,52 @@
 		{
 			"width": 170,
 			"height": 122,
+			"id": "Agama-assignment-Node-d718fabc-0c2f-4ffb-b474-29bba03e196e",
+			"position": {
+				"x": 637.412319155408,
+				"y": 83.72577669050787
+			},
+			"type": "assignment",
+			"data": {
+				"id": "Agama-assignment-Node-d718fabc-0c2f-4ffb-b474-29bba03e196e",
+				"type": "Agama-assignment-Node",
+				"parentId": "Agama-call-Node-9ecb75e7-3368-40fb-a7b7-b30c5283b6a7",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 637.412319155408,
+					"y": 83.72577669050787
+				},
+				"agamaData": {
+					"id": "Agama-assignment-Node-d718fabc-0c2f-4ffb-b474-29bba03e196e",
+					"type": "Agama-assignment-Node",
+					"parentId": "Agama-call-Node-9ecb75e7-3368-40fb-a7b7-b30c5283b6a7",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"asssignedVariableName": "authResult",
+					"comment": "Declared Empty result Object",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"variableType": "Another variable",
+					"assignmentExpression": "{}",
+					"displayName": "Result Object",
+					"nodeIcon": "material-symbols:equal"
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 637.412319155408,
+				"y": 83.72577669050787
+			}
+		},
+		{
+			"width": 170,
+			"height": 122,
 			"id": "Agama-call-Node-9ecb75e7-3368-40fb-a7b7-b30c5283b6a7",
 			"position": {
 				"x": 437.412319155408,
@@ -40,7 +86,7 @@
 					"nodeIcon": "material-symbols:code"
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 437.412319155408,
@@ -187,6 +233,23 @@
 			"type": "straight",
 			"source": "Agama-call-Node-46132603-75d9-4fa1-bd24-dec7e94bd651",
 			"target": "Agama-call-Node-9ecb75e7-3368-40fb-a7b7-b30c5283b6a7",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		},
+		{
+			"id": "Agama-call-Node-9ecb75e7-3368-40fb-a7b7-b30c5283b6a7-Agama-assignment-Node-d718fabc-0c2f-4ffb-b474-29bba03e196e-6f1c3977-5b9d-4629-a2ea-42174b59dc4b",
+			"type": "straight",
+			"source": "Agama-call-Node-9ecb75e7-3368-40fb-a7b7-b30c5283b6a7",
+			"target": "Agama-assignment-Node-d718fabc-0c2f-4ffb-b474-29bba03e196e",
 			"label": "",
 			"labelBgPadding": [
 				8,
