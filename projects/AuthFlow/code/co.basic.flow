@@ -1,2 +1,3 @@
 Flow co.basic
      Basepath ""
+authService = Call io.jans.as.server.service.AuthenticationService#class 
