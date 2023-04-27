@@ -6,7 +6,7 @@
 			"id": "Agama-call-Node-9ecb75e7-3368-40fb-a7b7-b30c5283b6a7",
 			"position": {
 				"x": 437.412319155408,
-				"y": 82.9021856732403
+				"y": 83.72577669050787
 			},
 			"type": "call",
 			"data": {
@@ -18,7 +18,7 @@
 				"handles": [],
 				"position": {
 					"x": 437.412319155408,
-					"y": 82.9021856732403
+					"y": 83.72577669050787
 				},
 				"agamaData": {
 					"id": "Agama-call-Node-9ecb75e7-3368-40fb-a7b7-b30c5283b6a7",
@@ -35,7 +35,7 @@
 					"javaMethodName": "bean",
 					"callType": "Call static method",
 					"logLevel": "info",
-					"arguments": "authServuce",
+					"arguments": "authService",
 					"displayName": "Init CDIUtil Object",
 					"nodeIcon": "material-symbols:code"
 				}
@@ -44,7 +44,7 @@
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 437.412319155408,
-				"y": 82.9021856732403
+				"y": 83.72577669050787
 			}
 		},
 		{
@@ -52,7 +52,7 @@
 			"height": 122,
 			"id": "Agama-call-Node-46132603-75d9-4fa1-bd24-dec7e94bd651",
 			"position": {
-				"x": 236.58872813814048,
+				"x": 234.94154610360533,
 				"y": 82.9021856732403
 			},
 			"type": "call",
@@ -64,7 +64,7 @@
 				"inRepeatBlock": false,
 				"handles": [],
 				"position": {
-					"x": 236.58872813814048,
+					"x": 234.94154610360533,
 					"y": 82.9021856732403
 				},
 				"agamaData": {
@@ -90,7 +90,7 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 236.58872813814048,
+				"x": 234.94154610360533,
 				"y": 82.9021856732403
 			}
 		},
@@ -201,8 +201,8 @@
 		}
 	],
 	"viewport": {
-		"x": 269.8966428552494,
-		"y": 15.350371150263584,
+		"x": 256.8966428552494,
+		"y": 67.35037115026358,
 		"zoom": 1.214194884395047
 	}
 }
