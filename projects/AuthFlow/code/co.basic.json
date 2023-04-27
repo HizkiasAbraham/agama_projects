@@ -3,10 +3,57 @@
 		{
 			"width": 170,
 			"height": 122,
+			"id": "Agama-call-Node-9ecb75e7-3368-40fb-a7b7-b30c5283b6a7",
+			"position": {
+				"x": 437.412319155408,
+				"y": 82.9021856732403
+			},
+			"type": "call",
+			"data": {
+				"id": "Agama-call-Node-9ecb75e7-3368-40fb-a7b7-b30c5283b6a7",
+				"type": "Agama-call-Node",
+				"parentId": "Agama-call-Node-46132603-75d9-4fa1-bd24-dec7e94bd651",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 437.412319155408,
+					"y": 82.9021856732403
+				},
+				"agamaData": {
+					"id": "Agama-call-Node-9ecb75e7-3368-40fb-a7b7-b30c5283b6a7",
+					"type": "Agama-call-Node",
+					"parentId": "Agama-call-Node-46132603-75d9-4fa1-bd24-dec7e94bd651",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"asssignedVariableName": "cdiUtil",
+					"comment": "Init CDIUtil Object",
+					"javaClassName": "io.jans.service.cdi.util.CdiUtil",
+					"javaMethodName": "bean",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"arguments": "authServuce",
+					"displayName": "Init CDIUtil Object",
+					"nodeIcon": "material-symbols:code"
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 437.412319155408,
+				"y": 82.9021856732403
+			}
+		},
+		{
+			"width": 170,
+			"height": 122,
 			"id": "Agama-call-Node-46132603-75d9-4fa1-bd24-dec7e94bd651",
 			"position": {
-				"x": 230,
-				"y": 78.78423058690242
+				"x": 236.58872813814048,
+				"y": 82.9021856732403
 			},
 			"type": "call",
 			"data": {
@@ -17,8 +64,8 @@
 				"inRepeatBlock": false,
 				"handles": [],
 				"position": {
-					"x": 230,
-					"y": 78.78423058690242
+					"x": 236.58872813814048,
+					"y": 82.9021856732403
 				},
 				"agamaData": {
 					"id": "Agama-call-Node-46132603-75d9-4fa1-bd24-dec7e94bd651",
@@ -40,11 +87,11 @@
 					"nodeIcon": "material-symbols:code"
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 230,
-				"y": 78.78423058690242
+				"x": 236.58872813814048,
+				"y": 82.9021856732403
 			}
 		},
 		{
@@ -57,8 +104,8 @@
 				"id": "Agama-start-Flow-e4bf7a03-9cc0-4fe1-9aef-0cffa64789d1",
 				"type": "Agama-start-Flow",
 				"position": {
-					"x": 30,
-					"y": 78.78423058690242
+					"x": 0.3507233783673769,
+					"y": 82.41231915540817
 				},
 				"handles": [],
 				"agamaData": {
@@ -106,14 +153,14 @@
 				"whenCondition": ""
 			},
 			"position": {
-				"x": 30,
-				"y": 75
+				"x": 0.3507233783673769,
+				"y": 82.41231915540817
 			},
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 30,
-				"y": 75
+				"x": 0.3507233783673769,
+				"y": 82.41231915540817
 			}
 		}
 	],
@@ -134,11 +181,28 @@
 				"color": "#fff",
 				"fillOpacity": 0.7
 			}
+		},
+		{
+			"id": "Agama-call-Node-46132603-75d9-4fa1-bd24-dec7e94bd651-Agama-call-Node-9ecb75e7-3368-40fb-a7b7-b30c5283b6a7-afa20654-d9b3-4888-b4b0-f212382213b0",
+			"type": "straight",
+			"source": "Agama-call-Node-46132603-75d9-4fa1-bd24-dec7e94bd651",
+			"target": "Agama-call-Node-9ecb75e7-3368-40fb-a7b7-b30c5283b6a7",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
 		}
 	],
 	"viewport": {
-		"x": 266.8966428552494,
-		"y": 11.350371150263584,
+		"x": 269.8966428552494,
+		"y": 15.350371150263584,
 		"zoom": 1.214194884395047
 	}
 }
