@@ -1,4 +1,4 @@
 Flow co.basic
      Basepath ""
 authService = Call io.jans.as.server.service.AuthenticationService#class 
-cdiUtil = Call io.jans.service.cdi.util.CdiUtil#bean authServuce
+cdiUtil = Call io.jans.service.cdi.util.CdiUtil#bean authService
