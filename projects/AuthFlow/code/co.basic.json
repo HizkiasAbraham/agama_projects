@@ -3,6 +3,105 @@
 		{
 			"width": 170,
 			"height": 122,
+			"id": "Agama-assignment-Node-f589fcf6-b1c7-4ca8-a81e-e27a03afc4f4",
+			"position": {
+				"x": 546.7064886821433,
+				"y": 416.6746538489546
+			},
+			"type": "assignment",
+			"data": {
+				"id": "Agama-assignment-Node-f589fcf6-b1c7-4ca8-a81e-e27a03afc4f4",
+				"type": "Agama-assignment-Node",
+				"parentId": "Agama-call-Node-89e275a7-39fb-433c-a576-8d2cb4ed44bc",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [
+					"Agama-repeat-Node-e391f163-9894-4116-9397-7a59b0cd2cfa.InFlow",
+					"Agama-repeat-Node-e391f163-9894-4116-9397-7a59b0cd2cfa.InRepeatBlock"
+				],
+				"position": {
+					"x": 546.7064886821433,
+					"y": 416.6746538489546
+				},
+				"agamaData": {
+					"id": "Agama-assignment-Node-f589fcf6-b1c7-4ca8-a81e-e27a03afc4f4",
+					"type": "Agama-assignment-Node",
+					"parentId": "Agama-call-Node-89e275a7-39fb-433c-a576-8d2cb4ed44bc",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"asssignedVariableName": "authResult.uid",
+					"comment": "Keep username in case auth failed, for retry",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"variableType": "Another variable",
+					"assignmentExpression": "creds.username",
+					"displayName": "Assign Username to Auth Result",
+					"nodeIcon": "material-symbols:equal"
+				}
+			},
+			"selected": true,
+			"positionAbsolute": {
+				"x": 546.7064886821433,
+				"y": 416.6746538489546
+			},
+			"dragging": false
+		},
+		{
+			"width": 170,
+			"height": 122,
+			"id": "Agama-call-Node-89e275a7-39fb-433c-a576-8d2cb4ed44bc",
+			"position": {
+				"x": 345.88289766487577,
+				"y": 413.3802897798842
+			},
+			"type": "call",
+			"data": {
+				"id": "Agama-call-Node-89e275a7-39fb-433c-a576-8d2cb4ed44bc",
+				"type": "Agama-call-Node",
+				"parentId": "Agama-rrf-Node-cf6fbb68-4cc6-4d02-ba97-54d9e39dc591",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [
+					"Agama-repeat-Node-e391f163-9894-4116-9397-7a59b0cd2cfa.InFlow",
+					"Agama-repeat-Node-e391f163-9894-4116-9397-7a59b0cd2cfa.InRepeatBlock"
+				],
+				"position": {
+					"x": 345.88289766487577,
+					"y": 413.3802897798842
+				},
+				"agamaData": {
+					"id": "Agama-call-Node-89e275a7-39fb-433c-a576-8d2cb4ed44bc",
+					"type": "Agama-call-Node",
+					"parentId": "Agama-rrf-Node-cf6fbb68-4cc6-4d02-ba97-54d9e39dc591",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"asssignedVariableName": "authResult.success",
+					"comment": "Validate / Check username password",
+					"javaMethodName": "authenticate",
+					"javaVariableName": "cdiUtil",
+					"callType": "Call method on instance",
+					"logLevel": "info",
+					"arguments": "creds.username creds.password",
+					"displayName": "User Authentication",
+					"nodeIcon": "material-symbols:code"
+				}
+			},
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 345.88289766487577,
+				"y": 413.3802897798842
+			}
+		},
+		{
+			"width": 170,
+			"height": 122,
 			"id": "Agama-rrf-Node-cf6fbb68-4cc6-4d02-ba97-54d9e39dc591",
 			"position": {
 				"x": 3.4016516775856758,
@@ -394,6 +493,40 @@
 				"fillOpacity": 0.7
 			},
 			"sourceHandle": "Agama-repeat-Node-e391f163-9894-4116-9397-7a59b0cd2cfa.InRepeatBlock"
+		},
+		{
+			"id": "Agama-rrf-Node-cf6fbb68-4cc6-4d02-ba97-54d9e39dc591-Agama-call-Node-89e275a7-39fb-433c-a576-8d2cb4ed44bc-b6ff3c1b-1076-4bca-9bb4-59db12e05c70",
+			"type": "straight",
+			"source": "Agama-rrf-Node-cf6fbb68-4cc6-4d02-ba97-54d9e39dc591",
+			"target": "Agama-call-Node-89e275a7-39fb-433c-a576-8d2cb4ed44bc",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		},
+		{
+			"id": "Agama-call-Node-89e275a7-39fb-433c-a576-8d2cb4ed44bc-Agama-assignment-Node-f589fcf6-b1c7-4ca8-a81e-e27a03afc4f4-cdb582c5-60bb-41cf-82cf-3e1ca15786d7",
+			"type": "straight",
+			"source": "Agama-call-Node-89e275a7-39fb-433c-a576-8d2cb4ed44bc",
+			"target": "Agama-assignment-Node-f589fcf6-b1c7-4ca8-a81e-e27a03afc4f4",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
 		}
 	],
 	"viewport": {
