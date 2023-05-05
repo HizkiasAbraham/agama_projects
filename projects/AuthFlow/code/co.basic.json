@@ -472,7 +472,7 @@
 					"nodeIcon": "material-symbols:code"
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 234.94154610360533,
@@ -500,7 +500,7 @@
 					"titleColor": "",
 					"descColor": "",
 					"flowname": "co.basic",
-					"basepath": "",
+					"basepath": "ser",
 					"comment": "",
 					"callType": "Call static method",
 					"logLevel": "info",
@@ -517,7 +517,7 @@
 				"x": 0.3507233783673769,
 				"y": 84.77430447826725
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 0.3507233783673769,
