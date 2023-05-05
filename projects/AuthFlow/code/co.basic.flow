@@ -1,5 +1,6 @@
 Flow co.basic
      Basepath ""
+     Timeout 12 seconds
 authService = Call io.jans.as.server.service.AuthenticationService#class 
 cdiUtil = Call io.jans.service.cdi.util.CdiUtil#bean authService
 authResult = {}
