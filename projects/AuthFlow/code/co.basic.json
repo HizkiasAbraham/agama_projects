@@ -504,7 +504,7 @@
 					"comment": "",
 					"callType": "Call static method",
 					"logLevel": "info",
-					"timeout": "12",
+					"timeout": "120",
 					"inputs": "",
 					"configs": "",
 					"displayName": "Basic Auth Flow",
@@ -704,8 +704,8 @@
 		}
 	],
 	"viewport": {
-		"x": 10,
-		"y": 15,
-		"zoom": 1
+		"x": -324.23201961002735,
+		"y": 92.18423099905121,
+		"zoom": 1.3947436663504058
 	}
 }
