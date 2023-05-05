@@ -40,7 +40,7 @@
 					"nodeIcon": "material-symbols:line-end-square-rounded"
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"positionAbsolute": {
 				"x": 1194.410079155408,
 				"y": 272.8380966905079
@@ -198,7 +198,7 @@
 			"id": "Agama-call-Node-89e275a7-39fb-433c-a576-8d2cb4ed44bc",
 			"position": {
 				"x": 345.88289766487577,
-				"y": 413.3802897798842
+				"y": 414.3802897798842
 			},
 			"type": "call",
 			"data": {
@@ -213,7 +213,7 @@
 				],
 				"position": {
 					"x": 345.88289766487577,
-					"y": 413.3802897798842
+					"y": 414.3802897798842
 				},
 				"agamaData": {
 					"id": "Agama-call-Node-89e275a7-39fb-433c-a576-8d2cb4ed44bc",
@@ -239,7 +239,7 @@
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 345.88289766487577,
-				"y": 413.3802897798842
+				"y": 414.3802897798842
 			}
 		},
 		{
@@ -329,9 +329,7 @@
 					"maxIteration": "3",
 					"maxIterationVariableName": "",
 					"displayName": "Retry Auth",
-					"nodeIcon": "material-symbols:event-repeat-outline-rounded",
-					"hasRepeat": true,
-					"hasNoRepeat": true
+					"nodeIcon": "material-symbols:event-repeat-outline-rounded"
 				}
 			},
 			"selected": false,
@@ -474,7 +472,7 @@
 					"nodeIcon": "material-symbols:code"
 				}
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 234.94154610360533,
@@ -492,62 +490,38 @@
 				"type": "Agama-start-Flow",
 				"position": {
 					"x": 0.3507233783673769,
-					"y": 82.41231915540817
+					"y": 84.77430447826725
 				},
 				"handles": [],
 				"agamaData": {
 					"id": "Agama-start-Flow-e4bf7a03-9cc0-4fe1-9aef-0cffa64789d1",
 					"type": "Agama-start-Flow",
-					"hasSuccess": false,
-					"hasFailure": false,
-					"hasRepeat": false,
-					"hasNoRepeat": false,
-					"name": "",
-					"basepath": "",
-					"comment": "",
-					"flowfilename": "",
-					"assignedvariableName": "",
-					"callType": "Call static method",
-					"arguments": "",
-					"logMessage": "",
-					"variableType": "",
-					"templatePath": "",
-					"maxIteration": "",
-					"idpAuthEndpoint": "",
-					"whenVariable": "",
-					"whenConditionInputField": "",
-					"whenValue": "",
-					"returnVariable": "",
-					"asssignmentExpression": "",
-					"asssignedVariableName": "",
-					"javaClassName": "",
-					"javaMethodName": "",
-					"javaVariableName": "",
-					"maxIterationVariableName": "",
-					"logLevel": "",
-					"assignCallbackResult": "",
-					"displayName": "Basic Auth Flow",
 					"nodeColor": "",
 					"titleColor": "",
 					"descColor": "",
-					"nodeIcon": "material-symbols:line-start-square",
+					"flowname": "co.basic",
+					"basepath": "",
+					"comment": "",
+					"callType": "Call static method",
+					"logLevel": "info",
 					"timeout": "",
 					"inputs": "",
 					"configs": "",
-					"flowname": "co.basic"
+					"displayName": "Basic Auth Flow",
+					"nodeIcon": "material-symbols:line-start-square"
 				},
 				"inRepeatBlock": false,
 				"whenCondition": ""
 			},
 			"position": {
 				"x": 0.3507233783673769,
-				"y": 82.41231915540817
+				"y": 84.77430447826725
 			},
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 0.3507233783673769,
-				"y": 82.41231915540817
+				"y": 84.77430447826725
 			}
 		}
 	],
@@ -730,8 +704,8 @@
 		}
 	],
 	"viewport": {
-		"x": 311.9017884998899,
-		"y": 164.99411100435253,
-		"zoom": 0.803755144032922
+		"x": 45.159739899074566,
+		"y": 56.05045774907063,
+		"zoom": 0.8467453123625275
 	}
 }
