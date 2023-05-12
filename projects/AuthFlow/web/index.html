@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./dist/main.css" />
+    <script src="./dist/main.js"></script>
+    <title>Balloon destroyer</title>
+    <link rel="icon" type="image/x-icon" href="./dist/images/favicon.png">
+  </head>
+  <body>
+    <div class="title">
+      <h1>Balloon Shooter</h1>
+    </div>
+    <div class="container">
+      <div class="container-left">
+        <div style="width: 100%">
+          <h3 class="text-center">Game control</h3>
+          <hr />
+          <p>Select game hero:</p>
+          <div class="flex-div">
+            <div class="flex-div-item hoverable">
+              <img id="ch-1" class="change-hero" src="./dist/images/ch-1.png" />
+            </div>
+            <div class="flex-div-item hoverable">
+              <img id="ch-2" class="change-hero" src="./dist/images/ch-2.png" />
+            </div>
+            <div class="flex-div-item hoverable">
+              <img id="ch-3" class="change-hero" src="./dist/images/ch-3.png" />
+            </div>
+          </div>
+          <p>Select game background:</p>
+          <div class="flex-div">
+            <div class="flex-div-item hoverable">
+              <img
+                class="change-background-img"
+                src="./dist/images/1.jpg"
+                id="bg1"
+              />
+            </div>
+            <div class="flex-div-item hoverable">
+              <img
+                class="change-background-img"
+                src="./dist/images/2.jpg"
+                id="bg2"
+              />
+            </div>
+            <div class="flex-div-item hoverable">
+              <img
+                class="change-background-img"
+                src="./dist/images/3.jpg"
+                id="bg3"
+              />
+            </div>
+          </div>
+
+          <div>
+            <p>Select Game level:</p>
+            <select id="gameLevel">
+              <option value="EASY" selected>Easy</option>
+              <option value="MEDIUM">Medium</option>
+              <option value="HARD">Hard</option>
+            </select>
+          </div>
+          <div style="margin-top: 8%">
+            <button id="startGame" class="btn primary">Start Game</button>
+          </div>
+          <div style="margin: 8%">
+            <h3 class="text-center">About</h3>
+            <hr />
+            <div class="flex-div">
+              <div style="justify-content: center" class="flex-div-item">
+                <img src="./dist/images/github.png" height="35" width="35" />
+                <div>
+                  <a href="">Bilal</a>
+                </div>
+              </div>
+              <div
+                style="justify-content: center; padding: 2%"
+                class="flex-div-item"
+              >
+                <img src="./dist/images/linkedin.png" height="30" width="30" />
+                <div>
+                  <a href="">Bilal</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="position: absolute; left: 0; margin-left: 22%; width: 100%">
+        <p style="color: aqua">
+          Highest Score:
+          <span id="highestScore">0</span>
+        </p>
+        <p style="color: aqua">Score: <span id="score">0</span></p>
+        <p style="color: aqua">
+          Lives:
+          <span id="lives">5</span>
+        </p>
+      </div>
+      <div id="canvas_container" class="container-right bg2">
+        <canvas id="game_canvas" width="6000" height="3000"></canvas>
+      </div>
+      <div>
+        <img
+          id="characterImg"
+          height="160"
+          width="140"
+          src="./dist/images/ch-2.png"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
